@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>百度地图示例</title>
+
+	<script>
+		function inputclick(){
+
+		}
+		function tiji(){
+			 obj = document.getElementsByName("pointlists");
+    check_val = [];
+    for(k in obj){
+        if(obj[k].checked)
+            check_val.push(obj[k].value);
+    }
+
+    url = "baiduMap.html?pointdata="+check_val;
+ 
+    window.location.href = url;
+		}
+		
+	</script>
+</head>
+<body>
+	<div align="center"> 
+		
+		<input type="checkbox" onclick="inputclick()" name="pointlists" value="point1|第一个点|116.401|39.915" id="point1"/>第一个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point2|第二个点|116.412|39.915" id="point2"/>第二个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point3|第三个点|116.423|39.915" id="point3"/>第三个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point4|第四个点|116.434|39.915" id="point4"/>第四个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point5|第五个点|116.445|39.915" id="point5"/>第五个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point6|第六个点|116.456|39.915" id="point6"/>第六个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point7|第七个点|116.467|39.915" id="point7"/>第七个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point8|第八个点|116.478|39.915" id="point8"/>第八个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point9|第九个点|116.489|39.915" id="point9"/>第九个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point10|第十个点|116.490|39.915" id="point10"/>第十个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point11|第十一个点|116.404|39.901" id="point11"/>第十一个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point12|第十二个点|116.404|39.912" id="point12"/>第十二个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point13|第十三个点|116.404|39.923" id="point13"/>第十三个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point14|第十四个点|116.404|39.934" id="point14"/>第十四个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point15|第十五个点|116.404|39.945" id="point15"/>第十五个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point16|第十六个点|116.404|39.956" id="point16"/>第十六个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point17|第十七个点|116.404|39.967" id="point17"/>第十七个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point18|第十八个点|116.404|39.978" id="point18"/>第十八个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point19|第十九个点|116.404|39.989" id="point19"/>第十九个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point20|第二十个点|116.404|39.990" id="point20"/>第二十个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point21|第二十一个点|116.404|39.915" id="point21"/>第二十一个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point22|第二十二个点|116.404|39.925" id="point22"/>第二十二个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point23|第二十三个点|116.404|39.935" id="point23"/>第二十三个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point24|第二十四个点|116.404|39.945" id="point24"/>第二十四个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point25|第二十五个点|116.404|39.955" id="point25"/>第二十五个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point26|第二十六个点|116.404|39.965" id="point26"/>第二十六个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point27|第二十七个点|116.404|39.975" id="point27"/>第二十七个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point28|第二十八个点|116.404|39.985" id="point28"/>第二十八个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point29|第二十九个点|116.404|39.995" id="point29"/>第二十九个点<br>
+	<input type="checkbox" onclick="inputclick()" name="pointlists" value="point30|第三十个点|116.404|39.905" id="point30"/>第三十个点<br>
+    <input type="button" name="点击" value="点击按钮" onclick="tiji()"> </input>
+	</div>
+	
+</body>
+</html>
